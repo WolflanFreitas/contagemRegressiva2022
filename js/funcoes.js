@@ -19,7 +19,7 @@ function countdown () {
 
    
     daysEl.innerHTML = days;
-    hoursEl.innerHTML = hours;
+    hoursEl.innerHTML = formatTime(hours);
     minutesEl.innerHTML = formatTime(minutes);
     secondsEl.innerHTML = formatTime(seconds);
 
